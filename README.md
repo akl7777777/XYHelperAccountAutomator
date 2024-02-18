@@ -1,0 +1,2 @@
+# XYHelperAccountAutomator
+xyhelper免费版批量添加账号的脚本
