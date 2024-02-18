@@ -1,4 +1,4 @@
-
+// 进入xyhelper后台,打开浏览器console输入以下命令执行
 // 输入账号信息
 const accounts = `aaa@aaa.com	abc123
 bbb@bbb.com	abc123
