@@ -29,7 +29,7 @@ async function batchInsertAccounts(){
 	const rows = accounts.split(rowSeparator);
 	for (let i = 0; i < rows.length; i++) {
 		document.querySelector('.el-button.el-button--primary').click();
-		await sleep(1000);
+		await sleep(sleepTime);
 		const cols = rows[i].split(colSeparator);
 		const emailInput = document.querySelector('[placeholder="请填写邮箱"]');
 		const passwordInput = document.querySelector('[placeholder="请填写密码"]');
